@@ -1,0 +1,26 @@
+{
+  "name": "connect_4_line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balajibalajanc/connect_4Line.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balajibalajanc/connect_4Line/issues"
+  },
+  "homepage": "https://github.com/balajibalajanc/connect_4Line#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
