@@ -8,7 +8,7 @@ const hbs=require('hbs');
 const public_dir_path=path.join(__dirname,'../public');
 const view_dir_path=path.join(__dirname,'../Templates/views');
 const partials_path=path.join(__dirname,'../Templates/partials');
-const port=process.env.PORT || 300
+const port=process.env.PORT || 3000
 const app=express()
 
 app.set('view engine','hbs');
