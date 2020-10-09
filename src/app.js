@@ -14,12 +14,13 @@ hbs.registerPartials(partials_path);
 
 
 app.use(express.static(public_dir_path))
-app.get('',(req,res)=>
+app.get('/',(req,res)=>
 {
     res.render('index',{
         title:'Hi successfully done Dyamic implementation'
     });
 })
+
 
 app.listen(port,()=>{   
     console.log("server is up and running in the port: "+port);
