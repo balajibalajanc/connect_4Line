@@ -17,14 +17,9 @@ hbs.registerPartials(partials_path);
 app.use(express.static(public_dir_path))
 app.get('/',(req,res)=>
 {
-    res.render('index',{
+    res.render('Index',{
         title:'Hi successfully done Dyamic implementation'
     });
-})
-
-app.get('/about',(req,res)=>
-{
-res.render('about',{title :'FAQ',desc:' balaji &  co'});
 })
 
 
